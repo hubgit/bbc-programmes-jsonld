@@ -1,0 +1,232 @@
+{
+  "@id": "http://www.bbc.co.uk/programmes/b083h9tr",
+  "@type": [
+    "http://schema.org/Episode"
+  ],
+  "http://schema.org/contributor": [
+    {
+      "@id": "_:b3",
+      "@type": [
+        "http://schema.org/Person"
+      ],
+      "http://schema.org/name": [
+        {
+          "@language": "en-gb",
+          "@value": "Andy Day"
+        }
+      ]
+    },
+    {
+      "@id": "_:b4",
+      "@type": [
+        "http://schema.org/Person"
+      ],
+      "http://schema.org/name": [
+        {
+          "@language": "en-gb",
+          "@value": "Ben Southwell"
+        }
+      ]
+    }
+  ],
+  "http://schema.org/datePublished": [
+    {
+      "@language": "en-gb",
+      "@value": "2016-11-15"
+    }
+  ],
+  "http://schema.org/description": [
+    {
+      "@language": "en-gb",
+      "@value": "\n    \n    \n        Children's favourite Andy Day looks at baby animals learning vital climbing skills.Black bear - bears make excellent climbers, but that doesn't mean the young don't have to practise this vital skill needed for food, safety and somewhere to rest. They have to learn which are the right trees to climb. Their first attempts are on trees that are too small or too slippery, but the third tree they choose is just right.Giant river otter - giant otters must master the art of climbing up muddy river banks to mark their territory and maintain its boundaries. It's tougher than it first appears. They try to copy mum but can only get halfway. The adults have to help them back down.Ibex - these mammals rely on the safety afforded by cliff faces. The young are born at the top of a cliff but there is no food up there. They must descend to the bottom where they can find water and plants to eat. Mum descends alone. The young are busy playing, but once they start to descend they realise it's a skill they are born with.\n    \n    \n        Show more  /  Show less\n    \n"
+    }
+  ],
+  "http://schema.org/director": [
+    {
+      "@id": "_:b5",
+      "@type": [
+        "http://schema.org/Person"
+      ],
+      "http://schema.org/name": [
+        {
+          "@language": "en-gb",
+          "@value": "Ben Southwell"
+        }
+      ]
+    }
+  ],
+  "http://schema.org/episodeNumber": [
+    {
+      "@language": "en-gb",
+      "@value": "2"
+    }
+  ],
+  "fb:admins": [
+    {
+      "@language": "en-gb",
+      "@value": "100004154058350"
+    }
+  ],
+  "fb:pages": [
+    {
+      "@language": "en-gb",
+      "@value": "194575130577797,7397061762,7833211321,129044383774217,401538510458,8251776107,273726292719943,107909022566650,21750735380,1477945425811579,944295152308991,154344434967,8244244903,512423982152360,156060587793370,215504865453262,260967092113,1392506827668140,193435954068976,7519460786,1143803202301544,1470145583204820,470911516262605,413132078795966,118883634811868,130593816777,228735667216,80758950658,260212261199,294662213128,1086451581439050,283348121682053,295830058648,239931389545417,304314573046,310719525611571,647687225371774,1159932557403143,286567251709437,1731770190373618,125309456546,742734325867560,168895963122035,292291897588734,658551547588605,156400551056385,185246968166196,1411916919051820,958681370814419,317278538359186,8585725981,1436581493296600,163571453661989,6025943146,193022337414607,1659215157653827"
+    }
+  ],
+  "http://ogp.me/ns#description": [
+    {
+      "@language": "en-gb",
+      "@value": "Andy Day looks baby animals as they learn vital climbing skills."
+    }
+  ],
+  "http://ogp.me/ns#image": [
+    {
+      "@language": "en-gb",
+      "@value": "https://ichef.bbci.co.uk/images/ic/1200x675/p04fqw4t.jpg"
+    }
+  ],
+  "http://ogp.me/ns#site_name": [
+    {
+      "@language": "en-gb",
+      "@value": "BBC"
+    }
+  ],
+  "http://ogp.me/ns#title": [
+    {
+      "@language": "en-gb",
+      "@value": "Climbing, Andy's Baby Animals - BBC - CBeebies"
+    }
+  ],
+  "http://ogp.me/ns#type": [
+    {
+      "@language": "en-gb",
+      "@value": "website"
+    }
+  ],
+  "http://ogp.me/ns#url": [
+    {
+      "@language": "en-gb",
+      "@value": "http://www.bbc.co.uk/programmes/b083h9tr"
+    }
+  ],
+  "http://www.w3.org/ns/rdfa#usesVocabulary": [
+    {
+      "@id": "http://schema.org/"
+    }
+  ],
+  "http://schema.org/image": [
+    {
+      "@language": "en-gb",
+      "@value": "https://ichef.bbci.co.uk/images/ic/544x306/p04fqw4t.jpg"
+    }
+  ],
+  "http://schema.org/isPartOf": [
+    {
+      "@id": "http://www.bbc.co.uk/programmes/b083gr3k",
+      "@type": [
+        "http://schema.org/Season"
+      ],
+      "http://schema.org/name": [
+        {
+          "@language": "en-gb",
+          "@value": "Andy's Baby Animals"
+        }
+      ],
+      "http://schema.org/url": [
+        {
+          "@language": "en-gb",
+          "@value": "http://www.bbc.co.uk/programmes/b083gr3k"
+        }
+      ]
+    }
+  ],
+  "http://schema.org/name": [
+    {
+      "@language": "en-gb",
+      "@value": "Climbing"
+    }
+  ],
+  "http://schema.org/numberOfEpisodes": [
+    {
+      "@language": "en-gb",
+      "@value": "20"
+    }
+  ],
+  "http://schema.org/producer": [
+    {
+      "@id": "_:b6",
+      "@type": [
+        "http://schema.org/Person"
+      ],
+      "http://schema.org/name": [
+        {
+          "@language": "en-gb",
+          "@value": "Jo Shinner"
+        }
+      ]
+    },
+    {
+      "@id": "_:b7",
+      "@type": [
+        "http://schema.org/Person"
+      ],
+      "http://schema.org/name": [
+        {
+          "@language": "en-gb",
+          "@value": "Michael Towner"
+        }
+      ]
+    },
+    {
+      "@id": "_:b8",
+      "@type": [
+        "http://schema.org/Person"
+      ],
+      "http://schema.org/name": [
+        {
+          "@language": "en-gb",
+          "@value": "Melissa Hardinge"
+        }
+      ]
+    }
+  ],
+  "http://schema.org/publication": [
+    {
+      "@id": "_:b0",
+      "@type": [
+        "http://schema.org/BroadcastEvent"
+      ],
+      "http://schema.org/publishedOn": [
+        {
+          "@id": "http://www.bbc.co.uk/cbeebies",
+          "@type": [
+            "http://schema.org/BroadcastService"
+          ],
+          "http://schema.org/name": [
+            {
+              "@language": "en-gb",
+              "@value": "CBeebies"
+            }
+          ],
+          "http://schema.org/url": [
+            {
+              "@id": "http://www.bbc.co.uk/cbeebies"
+            }
+          ]
+        }
+      ],
+      "http://schema.org/startDate": [
+        {
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "@value": "2018-01-02T11:30:00+00:00"
+        }
+      ]
+    }
+  ],
+  "http://schema.org/timeRequired": [
+    {
+      "@language": "en-gb",
+      "@value": "PT600S"
+    }
+  ]
+}

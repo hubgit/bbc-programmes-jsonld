@@ -1,0 +1,27 @@
+{
+  "name": "bbc-programmes-jsonld",
+  "author": "Alf Eaton <eaton.alf@gmail.com>",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "^4.16.2",
+    "rdfa-jsonld": "^0.1.0"
+  },
+  "devDependencies": {
+    "fs-extra": "^5.0.0",
+    "jest": "^22.0.4"
+  },
+  "scripts": {
+    "start": "node src/app.js",
+    "start:watch": "nodemon src/app.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "deploy": "now --public"
+  },
+  "files": [
+    "src"
+  ],
+  "now": {
+    "alias": "bbc-programmes-jsonld"
+  }
+}
