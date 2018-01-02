@@ -1,26 +1,15 @@
 const express = require('express')
-const convert = require('rdfa-jsonld')
+const convert = require('./convert')
 
 const app = express()
 
 app.set('json spaces', 2)
 
 app.get('/episode/:pid', async (req, res) => {
-  const url = 'http://www.bbc.co.uk/programmes/' + req.params.pid
 
   try {
-    const results = await convert(url, {
-      frame: {
-        '@context': {
-          '@vocab': 'http://schema.org/'
-        },
-        '@type': 'Episode'
-      },
-      expand: true
-    })
-
     res.json({
-      episode: results.find(result => result['@id'] === url)
+      data: await convert(req.params.pid)
     })
   } catch (e) {
     res.status(500).json({
