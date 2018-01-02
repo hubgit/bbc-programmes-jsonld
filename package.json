@@ -6,7 +6,8 @@
   "dependencies": {
     "express": "^4.16.2",
     "jsonld": "^0.4.12",
-    "jsonld-rdfa-parser": "^1.6.0"
+    "jsonld-rdfa-parser": "^1.6.0",
+    "rdfa-jsonld": "^0.1.0"
   },
   "devDependencies": {
     "fs-extra": "^5.0.0",

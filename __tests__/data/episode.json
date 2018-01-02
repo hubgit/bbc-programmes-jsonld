@@ -5,7 +5,7 @@
   ],
   "http://schema.org/contributor": [
     {
-      "@id": "_:b3",
+      "@id": "_:b7",
       "@type": [
         "http://schema.org/Person"
       ],
@@ -17,7 +17,7 @@
       ]
     },
     {
-      "@id": "_:b4",
+      "@id": "_:b8",
       "@type": [
         "http://schema.org/Person"
       ],
@@ -43,7 +43,7 @@
   ],
   "http://schema.org/director": [
     {
-      "@id": "_:b5",
+      "@id": "_:b9",
       "@type": [
         "http://schema.org/Person"
       ],
@@ -154,7 +154,7 @@
   ],
   "http://schema.org/producer": [
     {
-      "@id": "_:b6",
+      "@id": "_:b10",
       "@type": [
         "http://schema.org/Person"
       ],
@@ -166,7 +166,7 @@
       ]
     },
     {
-      "@id": "_:b7",
+      "@id": "_:b1",
       "@type": [
         "http://schema.org/Person"
       ],
@@ -178,7 +178,7 @@
       ]
     },
     {
-      "@id": "_:b8",
+      "@id": "_:b2",
       "@type": [
         "http://schema.org/Person"
       ],
@@ -192,7 +192,19 @@
   ],
   "http://schema.org/publication": [
     {
-      "@id": "_:b0",
+      "@id": "_:b3",
+      "@type": [
+        "http://schema.org/OnDemandEvent"
+      ],
+      "http://schema.org/endDate": [
+        {
+          "@language": "en-gb",
+          "@value": "2018-02-01T11:40:00+00:00"
+        }
+      ]
+    },
+    {
+      "@id": "_:b4",
       "@type": [
         "http://schema.org/BroadcastEvent"
       ],
@@ -227,6 +239,44 @@
     {
       "@language": "en-gb",
       "@value": "PT600S"
+    }
+  ],
+  "http://schema.org/video": [
+    {
+      "@id": "_:b0",
+      "@type": [
+        "http://schema.org/VideoObject"
+      ],
+      "http://schema.org/description": [
+        {
+          "@language": "en-gb",
+          "@value": "Andy Day looks baby animals as they learn vital climbing skills."
+        }
+      ],
+      "http://schema.org/name": [
+        {
+          "@language": "en-gb",
+          "@value": "Climbing"
+        }
+      ],
+      "http://schema.org/thumbnailUrl": [
+        {
+          "@language": "en-gb",
+          "@value": "https://ichef.bbci.co.uk/images/ic/1920x1080/p04fqw4t.jpg"
+        }
+      ],
+      "http://schema.org/uploadDate": [
+        {
+          "@language": "en-gb",
+          "@value": "2018-01-02T11:40:00+00:00"
+        }
+      ],
+      "http://schema.org/url": [
+        {
+          "@language": "en-gb",
+          "@value": "http://www.bbc.co.uk/iplayer/episode/b083h9tr"
+        }
+      ]
     }
   ]
 }

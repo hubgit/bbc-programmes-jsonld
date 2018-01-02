@@ -1,23 +1,26 @@
-const jsonld = require('jsonld')
-const parser = require('jsonld-rdfa-parser')
+const convert = require('rdfa-jsonld')
 
-jsonld.registerRDFParser('text/html', parser)
+const buildUrl = pid => 'http://www.bbc.co.uk/programmes/' + pid
 
-module.exports = async pid => {
-  const url = 'http://www.bbc.co.uk/programmes/' + pid
+const selectByUrl = url => item => item['@id'] === url
 
-  const data = await jsonld.promises.fromRDF(url, {
-    format: 'text/html'
+const frameByType = type => ({
+  '@context': {
+    '@vocab': 'http://schema.org/'
+  },
+  '@type': type
+})
+
+const episode = async pid => {
+  const url = buildUrl(pid)
+
+  const results = await convert(url, {
+    frame: frameByType('Episode'),
+    expand: true
   })
 
-  const framed = await jsonld.promises.frame(data, {
-    '@context': {
-      '@vocab': 'http://schema.org/'
-    },
-    '@type': 'Episode'
-  })
-
-  const expanded = await jsonld.promises.expand(framed)
-
-  return expanded.find(item => item['@id'] === url)
+  return results.find(selectByUrl(url))
 }
+
+module.exports = { episode }
+

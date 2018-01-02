@@ -1,15 +1,14 @@
 const express = require('express')
-const convert = require('./convert')
+const { episode } = require('./convert')
 
 const app = express()
 
 app.set('json spaces', 2)
 
 app.get('/episode/:pid', async (req, res) => {
-
   try {
     res.json({
-      data: await convert(req.params.pid)
+      data: await episode(req.params.pid)
     })
   } catch (e) {
     res.status(500).json({
