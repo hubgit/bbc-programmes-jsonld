@@ -17,7 +17,7 @@
     "start:watch": "nodemon src/app.js",
     "test": "jest",
     "test:watch": "jest --watch",
-    "deploy": "now --public"
+    "deploy": "now --public && now alias"
   },
   "files": [
     "src"
