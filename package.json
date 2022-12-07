@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "express": "^4.16.2",
+    "express": "^4.17.3",
     "jsonld": "^0.4.12",
     "jsonld-rdfa-parser": "^1.6.0",
     "rdfa-jsonld": "^0.1.0"
